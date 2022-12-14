@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Readex+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="containter">
+      <div class="input-group">
+        <form class="search-form" id="search-form">
+          <div class="row">
+            <div class="col-9">
+              <input
+                type="search"
+                placeholder="Type a city.."
+                autofocus="on"
+                autocomplete="off"
+                id="city-input"
+                class="form-control shadow-sm"
+              />
+            </div>
+            <div class="col-3">
+              <input
+                type="submit"
+                value="Search"
+                class="form-control btn btn-primary shadow-sm"
+              />
+            </div>
+          </div>
+        </form>
+       
+      </div>
+       <div class="row">
+      <div class="current">
+          <h1 id="city-displayed">South Gate, CA</h1>
+          <h2 id="date-today">Sunday, November 5th</h2>
+    
+    
+     
+        <div class="col temp">
+          <div>
+<span class="temperature">0</span><a href="#" class="fahrenheit">°F</a> | <a href="#" class="celsius">°C</a>
+          </div>
+         
+        </div>
+        <div class="col icon">
+              <img
+            src="images/cloudy-day-3.svg"
+            alt="current weather today is cloudy"
+          />
+        </div>
+        
+        <div class="col info">
+              percipitation: 10%
+            <br />
+            wind: 3 mi/ hr
+        </div>
+      </div>
+
+    </div>
+    <div class="week-weather">
+      <div class="row seven-cols my-7-col">
+          <div class="col-md-1">
+            Sunday <br />
+            <img src="images/cloudy-day-3.svg" alt="" />
+            <br>
+        
+            80° /70° 
+          </div>
+          <div class="col-md-1">
+            Monday
+            <br />
+            <img src="images/rainy-4.svg" alt="" />
+             <br>
+        
+            83° /71° 
+          </div>
+          <div class="col-md-1">
+            Tuesday <br />
+            <img src="images/snowy-2.svg" alt="" />
+             <br>
+        
+            84° /69° 
+          </div>
+          <div class="col-md-1">
+            Wednesday
+            <br />
+            <img src="images/thunder.svg" alt="" />
+             <br>
+        
+            80° /68° 
+          </div>
+          <div class="col-md-1">
+            Thursday <br />
+            <img
+              src="images/cloudy-night-2.svg"
+              alt=""
+            />
+             <br>
+        
+            73° /61° 
+          </div>
+          <div class="col-md-1">
+            Friday <br />
+            <img src="images/night.svg" alt="" />
+             <br>
+        
+            82° /71° 
+          </div>
+          <div class="col-md-1">
+            Saturday <br />
+            <img src="images/cloudy-day-2.svg" alt="" />
+             <br>
+        
+            91° /75° 
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+       
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,17 @@
+h1 {
+  color: blue;
+}
+.input-group {
+  margin-top: 25px;
+  padding: 50px;
+}
+
+.current {
+  text-align: center;
+  border-style: double;
+}
+
+.week-weather {
+  text-align: center;
+  border-style: double;
+}
