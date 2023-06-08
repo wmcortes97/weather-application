@@ -1,3 +1,5 @@
+import axios from "axios";
+
 //Displaying the date
 let week = [
   "Sunday",
