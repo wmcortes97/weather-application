@@ -40,6 +40,7 @@
                 type="submit"
                 value="Search"
                 class="form-control btn btn-primary shadow-sm"
+                id="city-input"
               />
             </div>
           </div>
@@ -60,16 +61,25 @@
          
         </div>
         <div class="col icon">
+        
               <img
+              id="weather-icon"
             src="images/cloudy-day-3.svg"
             alt="current weather today is cloudy"
           />
+         
+          
         </div>
         
         <div class="col info">
               percipitation: 10%
             <br />
-            wind: 3 mi/ hr
+            wind:
+            <span id="wind">
+               3 
+            </span>
+            mi/ hr
+            
         </div>
       </div>
 
@@ -133,12 +143,7 @@
         </div>
       </div>
     </div>
-    </div>
-<div>
-  example
-</div>
-       
-
+  </div>
     <script src="src/index.js"></script>
   </body>
 </html>
